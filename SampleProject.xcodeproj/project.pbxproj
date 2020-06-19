@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		C3214932249D01E2000816AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3214930249D01E2000816AC /* Main.storyboard */; };
 		C3214934249D01E5000816AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3214933249D01E5000816AC /* Assets.xcassets */; };
 		C3214937249D01E5000816AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3214935249D01E5000816AC /* LaunchScreen.storyboard */; };
-		C3214940249D0239000816AC /* Promises in Frameworks */ = {isa = PBXBuildFile; productRef = C321493F249D0239000816AC /* Promises */; };
 		C3214942249D0369000816AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3214941249D0369000816AC /* GoogleService-Info.plist */; };
 		FD7CD8A88D84D1AF34BC0CD1 /* Pods_SampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94683DFFB70BB22546ABB8E /* Pods_SampleProject.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3214940249D0239000816AC /* Promises in Frameworks */,
 				FD7CD8A88D84D1AF34BC0CD1 /* Pods_SampleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,7 +114,6 @@
 			);
 			name = SampleProject;
 			packageProductDependencies = (
-				C321493F249D0239000816AC /* Promises */,
 			);
 			productName = SampleProject;
 			productReference = C3214927249D01E2000816AC /* SampleProject.app */;
@@ -147,7 +144,6 @@
 			);
 			mainGroup = C321491E249D01E2000816AC;
 			packageReferences = (
-				C321493E249D0239000816AC /* XCRemoteSwiftPackageReference "promises" */,
 			);
 			productRefGroup = C3214928249D01E2000816AC /* Products */;
 			projectDirPath = "";
@@ -437,25 +433,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		C321493E249D0239000816AC /* XCRemoteSwiftPackageReference "promises" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/promises.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.9;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		C321493F249D0239000816AC /* Promises */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C321493E249D0239000816AC /* XCRemoteSwiftPackageReference "promises" */;
-			productName = Promises;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C321491F249D01E2000816AC /* Project object */;
 }
