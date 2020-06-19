@@ -13,6 +13,8 @@ target 'SampleProject' do
   pod 'Firebase/Crashlytics'
   pod 'Firebase/Messaging'
 
+  pod 'PromisesSwift'
+
   script_phase :name => 'Crashlytics',
               :script => '"${PODS_ROOT}/FirebaseCrashlytics/run"',
               :input_files => [

@@ -131,6 +131,8 @@ PODS:
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
   - PromisesObjC (1.2.9)
+  - PromisesSwift (1.2.9):
+    - PromisesObjC (= 1.2.9)
   - Protobuf (3.12.0)
 
 DEPENDENCIES:
@@ -140,6 +142,7 @@ DEPENDENCIES:
   - Firebase/Messaging
   - Firebase/Performance
   - Firebase/RemoteConfig
+  - PromisesSwift
 
 SPEC REPOS:
   trunk:
@@ -164,6 +167,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - nanopb
     - PromisesObjC
+    - PromisesSwift
     - Protobuf
 
 SPEC CHECKSUMS:
@@ -188,8 +192,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  PromisesSwift: 991ad88e9851c45410d6697d1fe5df88fd3deb08
   Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
 
-PODFILE CHECKSUM: 91e187daf0ddc43fe84ccde8f837b3f12a6dafa7
+PODFILE CHECKSUM: 56e1796b88df655a96b9df78beebdb589612fedf
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.9.1
